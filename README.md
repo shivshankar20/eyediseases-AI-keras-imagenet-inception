@@ -9,6 +9,7 @@ Helping Eye Doctors to see better with machine learning (AI)
 http://blog.mapshalli.org/index.php/2018/03/17/helping-eye-doctors-to-see-better-with-machine-learning-ai/
 
 This indepth article covers the following:
+
 Part 1 – Background
 * Introduction
 * Optical coherence tomography (OCT) and eye diseases

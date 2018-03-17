@@ -3,9 +3,12 @@ Image based deep learning to detect eye diseases. Transfer learning using keras,
 
 
 Please read the following article before downloading code samples:
+
+Helping Eye Doctors to see better with machine learning (AI)
+
 http://blog.mapshalli.org/index.php/2018/03/17/helping-eye-doctors-to-see-better-with-machine-learning-ai/
 
-The article covers the following:
+This indepth article covers the following:
 Part 1 – Background
 * Introduction
 * Optical coherence tomography (OCT) and eye diseases
@@ -40,4 +43,4 @@ Part 3 – Implementation: Evaluate the Model
 
 Part 4: Summary and Download links
 
-The article consists of link to download saved Keras model with weights.
+The article consists of links to download saved Keras model with weights.

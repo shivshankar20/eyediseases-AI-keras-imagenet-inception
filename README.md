@@ -44,4 +44,4 @@ Part 3 – Implementation: Evaluate the Model
 
 Part 4: Summary and Download links
 
-The article consists of links to download saved Keras model with weights.
+The article also consists of link to download saved Keras model with weights.

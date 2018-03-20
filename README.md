@@ -12,6 +12,10 @@ Please read the following article before downloading code samples:
 * Train.ipynb - Train the model
 * Evaluate.ipynb - Evaluate the model
 
+### Models
+
+See the documentation below to know how to download the trained model (84MB!)
+
 
 ### Documentation
 [Helping Eye Doctors to see better with machine learning (AI)](http://blog.mapshalli.org/index.php/2018/03/17/helping-eye-doctors-to-see-better-with-machine-learning-ai/)
@@ -71,6 +75,11 @@ The article also consists of link to download saved Keras model with weights.
 * Features-Extract.ipynb - Extract features by feeding images through InceptionV3 pretrained model
 * Features-Train.ipynb - Feed the features to train a small neural network with a classifier
 * Features-Evaluate.ipynb - Evaluate the model along with occlusion maps
+
+### Models
+output/model.24-0.99.hdf5.zip:
+* Model file created by Features-Train.ipynb.
+* Unzip and load the model in Features-Evaluate.ipynb
 
 ### Documentation
 Coming soon!

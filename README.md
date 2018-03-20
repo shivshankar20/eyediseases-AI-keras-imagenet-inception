@@ -55,11 +55,18 @@ The article also consists of link to download saved Keras model with weights.
 #### Part 4: Summary and Download links
 
 
-## II. Bottleneck Approach
-Coming soon! 
+## II. Feature Extraction & Bottleneck Approach
+
 * Extract features by feeding the images to an InceptionV3 model trained with imagenet dataset.
 * Save training and validation features to h5 files.
 * Create your own small neural network model.
 * Write generators to feed saved features to your model.
-* Achieve 98% accuracy
+* Achieve 99.8% accuracy
 * Training speed reduced to 1/10th. 10 mins/epoch to 1 min/epoch!
+
+Article: coming soon!
+
+### Jupyter notebooks
+* Features-Extract.ipynb - Extract features by feeding images through InceptionV3 pretrained model
+* Features-Train.ipynb - Feed the features to train a small neural network with a classifier
+* Features-Evaluate.ipynb - Evaluate the model along with occlusion maps

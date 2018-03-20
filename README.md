@@ -58,8 +58,8 @@ The article also consists of link to download saved Keras model with weights.
 ## II. Bottleneck Approach
 Coming soon! 
 * Extract features by feeding the images to an InceptionV3 model trained with imagenet dataset.
-* Save features in a h5 file.
+* Save training and validation features to h5 files.
 * Create your own small neural network model.
-* Write generators to feed saved features to your model
+* Write generators to feed saved features to your model.
 * Achieve 98% accuracy
 * Training speed reduced to 1/10th. 10 mins/epoch to 1 min/epoch!

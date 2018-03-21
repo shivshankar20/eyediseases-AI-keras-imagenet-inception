@@ -80,7 +80,7 @@ Please read the following article before downloading code samples:
 * Create your own small neural network model.
 * Write generators to feed saved features to your model.
 * Achieve 99.1% accuracy
-* Training speed reduced to 1/10th. 10 mins/epoch to 1 min/epoch!
+* Training speed reduced to 1/10th. 12 mins/epoch to 1.5 min/epoch!
 
 
 ### Jupyter notebooks

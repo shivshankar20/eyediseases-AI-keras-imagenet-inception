@@ -82,4 +82,4 @@ output/model.24-0.99.hdf5.zip:
 * Unzip and load the model in Features-Evaluate.ipynb
 
 ### Documentation
-Coming soon!
+[Faster and better transfer learning training with deep neural networks (AI) to detect eye diseases](http://blog.mapshalli.org/index.php/2018/03/21/faster-and-better-transfer-learning-training-with-deep-neural-networks-ai-to-detect-eye-diseases/)

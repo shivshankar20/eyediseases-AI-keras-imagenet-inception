@@ -1,5 +1,11 @@
 # eyediseases-AI-keras-imagenet-inception
-Image based deep learning to detect eye diseases. Transfer learning using keras, imagenet, and Inception v3.
+Image based deep learning to detect eye diseases. Transfer learning and feature extraction using keras, imagenet, and Inception v3.
+
+There are two approaches covered here:
+
+I. Transfer Learning Approach (94% accuracy, 100 hours of training duration, 500 epochs, 12 mins/epoch)
+
+II. Feature Extraction & Bottleneck Approach (99.1% accuracy, 75 mins of training duration, 50 epochs, 90 sec/epoch)
 
 ## I. Transfer Learning Approach
 Load a pretrained InceptionV3 model without the top layers, lock the base model, add new layers, and train the model.
@@ -60,6 +66,12 @@ The article also consists of link to download saved Keras model with weights.
 
 
 ## II. Feature Extraction & Bottleneck Approach
+Feed all the images (training and validation) to extract the output of the base InceptionV3 model.  Save the outputs, i.e, features (bottlenecks) and the associated labels in a file. Use a shallow neural network and feed the saved features to train the model. Save
+the best performing model found during training and reduce the learning rate if the validation loss remains flat for few epochs.
+
+Please read the following article before downloading code samples:
+
+[Faster and better transfer learning training with deep neural networks (AI) to detect eye diseases](http://blog.mapshalli.org/index.php/2018/03/21/faster-and-better-transfer-learning-training-with-deep-neural-networks-ai-to-detect-eye-diseases/)
 
 ### Highlights
 
@@ -83,3 +95,24 @@ output/model.24-0.99.hdf5.zip:
 
 ### Documentation
 [Faster and better transfer learning training with deep neural networks (AI) to detect eye diseases](http://blog.mapshalli.org/index.php/2018/03/21/faster-and-better-transfer-learning-training-with-deep-neural-networks-ai-to-detect-eye-diseases/)
+
+### Table of Contents
+
+#### Part 1 – Background and Overview
+* Transfer learning – using a fully trained model as a whole
+* Transfer learning – extract features (bottlenecks), save them and feed to a shallow neural network
+
+#### Part 2 – Implementation
+* Extract features using imagenet trained InceptionV3 model
+  * Import the required modules and load the InceptionV3 model
+  * Extract features by feeding images and save the features to a file
+* Build and train a shallow neural network
+  * Import the required modules
+  * Setup a generator to feed saved features to the model
+  * Build a shallow neural network model
+  * Train the model, save the best model and tune the learning rate
+* Evaluate the model
+  * Import the required modules and load the saved model
+  * Evaluate the model by making predictions and viewing the occlusion maps for multiple images
+
+#### Part 3 – Summary and Download links

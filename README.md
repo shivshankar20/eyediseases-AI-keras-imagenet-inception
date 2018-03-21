@@ -67,7 +67,7 @@ The article also consists of link to download saved Keras model with weights.
 * Save training and validation features to h5 files.
 * Create your own small neural network model.
 * Write generators to feed saved features to your model.
-* Achieve 99.8% accuracy
+* Achieve 99.1% accuracy
 * Training speed reduced to 1/10th. 10 mins/epoch to 1 min/epoch!
 
 
